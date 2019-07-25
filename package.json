@@ -1,6 +1,6 @@
 {
   "name": "open-ip-port",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "openPort.js",
   "scripts": {
@@ -17,5 +17,14 @@
   "license": "ISC",
   "dependencies": {
     "open": "^6.4.0"
-  }
+  },
+  "keywords": [
+    "open",
+    "host",
+    "ip",
+    "port",
+    "open host",
+    "open ip",
+    "open port"
+  ]
 }
