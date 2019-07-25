@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+const open = require('open')
+const {getFilteredIpList} = require('../openPort')
+const port = process.argv[2] || 8080;
+const ipList = getFilteredIpList();
+console.log('urls:');
+console.log(`\n${ipList.map(ip => `http://${ip}:${port}`)}`)
+const url = `http://${ipList[0]}:${port}`;
+open(url)
+

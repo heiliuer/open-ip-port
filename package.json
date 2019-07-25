@@ -1,0 +1,17 @@
+{
+  "name": "open-ip-port",
+  "version": "1.0.0",
+  "description": "",
+  "main": "openPort.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "openip": "./bin/openipport"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "open": "^6.4.0"
+  }
+}
