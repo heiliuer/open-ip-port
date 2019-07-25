@@ -9,6 +9,10 @@
   "bin": {
     "openip": "./bin/openipport"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heiliuer/open-ip-port"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
